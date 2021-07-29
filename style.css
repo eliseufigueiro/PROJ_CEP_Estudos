@@ -1,0 +1,81 @@
+body {
+      font-family: Avenir, Helvetica, Arial, sans-serif;
+      background: #F2EEA7;
+      color: #1A2737;
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: auto;
+      justify-content: center;
+      align-items: center;
+}
+
+#app {
+    background: #664078;
+    border-radius: 0.3rem;
+    padding: 1.5rem 0rem;
+    /*box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);*/
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+form input {
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #1A2737;
+    width: 210px;
+    outline: none;
+    padding: 0.3rem 0;
+    text-align: center;
+    border-radius: 0.1rem;
+}
+
+form input::placeholder {
+    color: #EFD7D0;
+    text-align: center;
+    margin: auto;
+}
+
+form button {
+    padding: 0.3rem 1rem;
+    color: #1A2737;
+    /*border-radius: 0.5rem;*/
+    width: 210px;
+    border: none;
+    border-radius: 0.1rem;
+    font-size: 1.3rem;
+    background: #E67399;
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1A2737;
+    color: #E67399;
+    transition: all 0.3s;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+
+p:nth-child(1) {
+    padding-top: 1.3rem;
+}
+
+p {
+    color: #EFD7D0;
+    font-size: 1.1rem;
+    margin: 0.6rem 0;
+}
