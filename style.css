@@ -13,6 +13,7 @@ body {
 #app {
     background: #664078;
     border-radius: 0.3rem;
+    margin-top: 20vh;
     padding: 1.5rem 0rem;
     /*box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);*/
 }
@@ -78,4 +79,14 @@ p {
     color: #EFD7D0;
     font-size: 1.1rem;
     margin: 0.6rem 0;
+}
+
+footer {
+    position: relative;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #1A2737;
+    text-align: center;
 }
